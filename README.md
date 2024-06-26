@@ -9,5 +9,6 @@ The primary sources of wasted time includes
 
 I may add to this list as I try to mitigate complexity in the workflow as a computer scientist
 
-## Software Philosophy Tips 
-- reducing complexity in the way we compose code
+## Commands
+
+## Debugging
