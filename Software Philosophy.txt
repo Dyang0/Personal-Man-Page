@@ -1,0 +1,114 @@
+Software Design
+
+	⁃	waterfall vs agile development 
+	⁃	Complexity: If it is difficult to understand and modify the system
+	⁃	If a system has a few parts that are complicated but are not touched. This doesnt increase the complexity
+	⁃	Point is to not only create code you can work with easily but with code that others can work with easily
+
+	1.	Change amplification
+	⁃	A simple change requires code modifications in many different places
+
+	2.	Cognitive Load
+	⁃	How much a developer needs to know in order to complete a task.
+	⁃	Occurs in many ways. APIs with many methods, global variables, inconsistencies, and dependencies between modules
+	⁃	More lines of code may be simpler and reduce cognitive load
+
+	3.	Not obvious which pieces of code must be modified to complete a task, or what information a developer must have to carry out the task successfully.
+
+Complexity
+	⁃	Dependencies and obscurity
+	⁃	Interface and implementation (formal vs informal interface)
+	⁃	Informal: need to call a function before another
+	⁃	Interface is what u need to know. Implementation is not what u need to know
+	⁃	Abstraction: removing unimportant information
+
+Interfaces should be designed so the common case is implemented 
+
+Information Hiding
+	⁃	simplifies the interface to a module
+	⁃	Makes it easier to evolve a system
+
+When deigning modules, focus on the knowledge that’s needed to perform each task, not the order in which tasks occur
+
+Information leakage
+	⁃	when design decisions are reflected in multiple modules
+
+Temporal Decomposition
+	⁃	reflected in code structure: operations that happen at different times are in different methods or classes (HTTP request reading and parsing should be in same class)
+
+Generality leads to better information hiding
+	⁃	when the details are important, it is better to make them explicit and as obvious as possible, such as the revised implementation of the backspace operation. Hiding this information behind an interface just creates obscurity
+	⁃	What is the simplest interface that will cover all my current needs.  reduce the number of methods in an API without reducing the amount of capabilities. Dont introduce lots of additional arguments
+	⁃	In how many situations will this method be used? Using a method for one purpose is a red flag. Try to replace many special-purpose methods with a single general-purpose
+	⁃	Is this API easy to use for my current needs? A red flag if you have to write a lot of additional code (ex insert/delete only one char not a range. Have to use for loop)
+
+Different Layer, Different Abstraction
+	⁃	if a system contains adjacent layers with similar abstractions, this is a red flag that suggests a problem with the class decomposition.
+	⁃	Pass-through method: that does nothing except pass its arguments to another method, usually with the same API as the pass-through method
+	⁃	The interface to a piece of functionality should be in the same class that implements the functionality
+	⁃	Refactor the classes so that each class has a distinct and coherent set of responsibilities 
+	⁃	Dispatcher: is a method that uses its arguments to select one of several other methods to invokes; then it passes most other all its arguments to the chosen method.
+	⁃	Decorators: takes an existing object and extends its functionality 
+
+Pull Complexity Downwards
+	⁃	it is more important for a module to have a simple interface than a simple implementation
+	⁃	Sometimes the right values could have been determined automatically with a little extra work in the system implementation
+Taking it too far
+a) the complexity being pulled down is closely related to the class’s existing functionality 
+b) pulling the complexity down will result in many simplifications elsewhere in the application
+c) pulling the complexity down simplifies the class’s interface
+
+Better together or better apart?
+	⁃	when deciding, the goal is to reduce the complexity of the system as a whole and improve its modularity 
+
+
+	⁃	Subdivision usually results in more interfaces, and every new interface adds complexity
+	⁃	Subdivision can result in additional code to manage components
+	⁃	Subdivision makes it harder for developers to see components at the same time. Make sure components are fully independent 
+	⁃	Subdivision can result in duplication
+
+Bring together related code
+	⁃	share information. Depend on the syntax of a particular type of document
+	⁃	Used together. Only compelling if it is bidirectional (disk block cache and hash block. Hash block dont need to involve disk block cache)
+	⁃	Overlap conceptually. Simple higher category that includes both pieces of code
+	⁃	It is hard to understand one of the pieces of code without looking at other
+
+When two or more modules are combined into a ingle module, it may be possible to define an interface for the new module that is simpler or easier to use than the original interfaces
+
+Use goto statement if there is only one error
+
+Separate general-purpose and special-purpose code
+	⁃	chapter 6. GUI split text provided general purpose while user interface provided deleting
+
+Higher layers are more specific. If it includes both general and specific, see if the class can be separated into two classes.
+
+Red flag: special-general mixture
+(However special and general can be combined if necessary. Too often pg 70)
+
+Splitting and joining methods
+	⁃	a subtask from parent makes sense when u dont need to need to know anything bidirectionally from parent and child. You shouldn’t have to flip back and forth between parent and child
+	⁃	Option 2: split into two methods
+Ideally most callers should only need to invoke one of the two new methods. A need to invoke both adds complexity. If u are considering this, see if it makes it easier for the caller
+
+A piece of code may encounter exceptions in several different ways
+	⁃	A caller may provide bad arguments or configuration information
+	⁃	An invoked method may not be able to complete a requested operation. For example, an I/O operation may fail, or a required resource may not be available
+	⁃	In a distributed system, network packets may be lost or delayed, servers may not respond in a timely fashion, or peers may communicate in unexpected ways
+	⁃	The code may detect bugs, internal inconsistencies, or situations it is not prepared to handle
+
+Deal with exceptions in two ways
+	1.	To move forward and complete the work in progress in spite of the exception
+	2.	Abort the operation in progress and report the exception upwards
+
+A double exception is possible
+
+A recent study found that more than 90% of catastrophic failures in distributed data-intensive systems were caused by incorrect error handling.
+
+When exception handling code fails, it’s difficult to debug the problem, since it occurs so infrequently 
+
+Generating an exception could just pass the problem to someone else and adds to the system’s complexity
+
+The best way to reduce complexity is to reduce the numbers of places where exceptions have to be handled
+
+Define errors out of existence
+	⁃	the Unix definition of file deletion is much simpler to work with, both for developers and users, than the Windows definition
