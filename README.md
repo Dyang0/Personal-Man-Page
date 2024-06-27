@@ -1,4 +1,4 @@
-# Writing-My-Own-Software-Ebook
+# Writing-A-Software-Ebook
 
 My Intentions
 - For now, I want this to be a learning experience where I can reinforce my knowledge as a software developer and aspiring pen tester
