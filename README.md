@@ -20,7 +20,7 @@ The sentiment behind this Ebook is to combat our tendency to feed into bad habit
 
 [ *Bad Habits + Ignorance = Complexity = Wasted Time & Resources* ]
 
-This guide may seem more helpful for pen testers. But as of now, I feel like these topics are indispensable for every software developer. It will be  useful as one goes more into the OS and learn topics such as threading. Without a great jump start, complexity increases significantly.
+This guide may seem more helpful for pen testers. But as of now, I feel like these topics are indispensable for every software developer. It will be  useful as one goes more into the OS and learn topics such as threading. Without a strong jump start, complexity increases significantly.
 
 The primary sources of complexity includes
 - setting up a working environment
