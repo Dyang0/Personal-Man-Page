@@ -43,5 +43,4 @@ pwd
 ### GDB Extensions
 [gef](https://github.com/hugsy/gef)
 
-
-## Debugging
+### Workflow
