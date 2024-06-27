@@ -27,7 +27,6 @@ The primary sources of wasted time includes
 *I may add to this list in the future
 
 ## Recalling Commands
-
 cat 
 - 
 
