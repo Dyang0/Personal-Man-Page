@@ -24,7 +24,7 @@ The primary sources of complexity includes
 - recalling commands (this includes gdb commands for debugging)
 - effective debugging (use of gdb extensions, formatting, etc)
 
-*I may add to this list in the future
+*I may add to this list in the future as I learn more from other projects
 
 ## Recalling Commands
 cat 
