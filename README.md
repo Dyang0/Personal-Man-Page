@@ -18,7 +18,7 @@ This project involves creating my own Ebook about software. The goal is to docum
 
 The sentiment behind this Ebook is to combat our tendency to feed into bad habits. Unless you are a well versed software developer with many years in the job force, we tend to be okay with what works- although there are tools or resources to make life easier. I want to expose developers to those tools or resources so they don't waste time. 
 
-Bad Habits + Ignorance = Complexity = Wasted Time & Resources
+*Bad Habits + Ignorance = Complexity = Wasted Time & Resources*
 
 This guide may seem more helpful for pen testers. But as of now, I feel like these topics are indispensable for every software developer. It will be especially useful as one goes more into the OS and learn topics such as threading. Without basic knowledge on commands and debugging, complexity increases significantly.
 
