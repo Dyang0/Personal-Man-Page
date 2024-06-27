@@ -1,6 +1,6 @@
 # Writing-My-Own-Software-Ebook
 
-### My Intentions
+My Intentions
 - For now, I want this to be a learning experience where I can reinforce my knowledge as a software developer
 - I am involving myself with pen testing and CTFs which requires knowledge of effective techniques. I thought this would be a great opportunity to reinforce those ideas
 - This project will constantly be updated as I grow more experienced as a software developer and pen tester
