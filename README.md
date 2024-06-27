@@ -18,13 +18,11 @@ This project involves creating my own Ebook about software. The goal is to docum
 
 The sentiment behind this Ebook is to combat our tendency to feed into bad habits. Unless you are a well versed software developer with many years in the job force, we tend to be okay with what works- although there are tools or resources to make life easier. I want to expose developers to those tools or resources so they don't waste time. 
 
-In equation form...
-
 Bad Habits + Ignorance = Complexity = Wasted Time & Resources
 
 The primary sources of wasted time includes
 - recalling commands (this includes gdb commands for debugging)
-- effective debugging techniques (use of gdb etc)
+- effective debugging (use of gdb extensions, formatting, etc)
 
 *I may add to this list in the future
 
@@ -41,7 +39,10 @@ ls -la
 pwd
 - print working directory
 
-## Effective Debugging Techniques
+## Effective Debugging
+
+### GDB Extensions
+[gef](https://github.com/hugsy/gef)
 
 
 ## Debugging
