@@ -20,7 +20,7 @@ The sentiment behind this Ebook is to combat our tendency to feed into bad habit
 
 Bad Habits + Ignorance = Complexity = Wasted Time & Resources
 
-The primary sources of wasted time includes
+The primary sources of complexity includes
 - recalling commands (this includes gdb commands for debugging)
 - effective debugging (use of gdb extensions, formatting, etc)
 
