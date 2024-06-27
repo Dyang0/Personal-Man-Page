@@ -6,7 +6,8 @@
 - This project will constantly be updated as I grow more experienced as a software developer and pen tester
 
 ## Title: 
-- Avoiding Complexity: A Jump Start Guide for Every Software Developer
+
+Avoiding Complexity: A Jump Start Guide for Every Software Developer
 
 Complexity
 - the state or quality of being intricate or complicated
