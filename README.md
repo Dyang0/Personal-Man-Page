@@ -7,6 +7,8 @@
 
 Title: Avoiding Complexity: A Jump Start Guide for Every Software Developer
 
+<u>Underlined text</u>
+
 Complexity
 - the state or quality of being intricate or complicated
 
