@@ -12,7 +12,7 @@ Avoiding Complexity: A Jump Start Guide for Every Software Developer
 ## Introduction: 
 
 Complexity
-- the state or quality of being intricate or complicated
+  the state or quality of being intricate or complicated
 
 This project involves creating my own Ebook about software. The goal is to document my knowledge as a software developer and aspiring pen tester in order to avoid complexity. I have learned the hard way that programming tasks (such as debugging) can take hours if not done properly. Specifically, not knowing the basic debugging process or commands adds further unnecessary complexity. This in turn wastes time and resources. Therefore, the goal of this Ebook is to jump start developers so they can focus on what truly matters.
 
