@@ -9,6 +9,8 @@
 
 ### Avoiding Complexity: A Jump Start Guide for Every Software Developer
 
+## Introduction: 
+
 Complexity
 - the state or quality of being intricate or complicated
 
