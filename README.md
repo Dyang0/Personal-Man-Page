@@ -28,12 +28,12 @@ The primary sources of wasted time includes
 
 ## Recalling Commands
 cat 
-- 
+-  reads each File parameter in sequence and writes it to standard output
 
 ls -la
 - ls: Lists directory contents
-- l: Uses the long listing format. This provides detailed information about each file and directory, including permissions, number of links, owner, group, size, and timestamp of last modification.
-- a: Lists all entries, including hidden files (those starting with a dot).
+- l: Uses the long listing format. This provides detailed information about each file and directory, including permissions, number of links, owner, group, size, and timestamp of last modification
+- a: Lists all entries, including hidden files (those starting with a dot)
 
 pwd
 - print working directory
