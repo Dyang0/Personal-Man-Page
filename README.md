@@ -35,11 +35,11 @@ I have wasted countless hours trying to setup a working environment. This involv
 
 Virtual environments not only hides the clutter of the computers that you use everyday but it also gives you isolated operating systems for varying cases. Want to set an a virtual machine with many preconfigured reverse engineering tools. You can. Want to set a simple Ubuntu machine for pen testing. You can. Want to reverse your virtual machine to a previous, stable state. You can. Want to avoid fallback from running a malcious binary on your system. Use an isolated virtual machine.
 
-The benefits far exceed the cost of setting up your own environment. In many cases you can upload preconfigured virtual machines.
+The benefits far exceed the cost of setting up your own environment. In many cases you can upload preconfigured virtual machines on your VM software (popular ones include VMware and VirtualBox).
 
-You may argue that I am lazy or this practice does not reflect real world practices. But think about how much more you will learn if you avoid all this initial overhead and clutter.
+You may disagree with me. But think about how much more you will learn if you avoid all this initial overhead and clutter.
 
-My college uses a ssh connection so why can't I make my own environment also.
+My college uses [rlgoin](https://wiki.cs.vt.edu/index.php/Howto::Access_rlogin_service) to create a consistent linux environment so why can't I make my own environment.
 
 ## Easy-To-Use Terminal Interface
 
