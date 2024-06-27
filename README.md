@@ -20,11 +20,16 @@ The sentiment behind this Ebook is to combat our tendency to feed into bad habit
 
 Bad Habits + Ignorance = Complexity = Wasted Time & Resources
 
+This guide may seem more helpful for pen testers. But as of now, I feel like these topics are indispensable for every software developer. It will be especially useful as one goes more into the OS and learn topics such as threading. Without basic knowledge on commands and debugging, complexity increases significantly.
+
 The primary sources of complexity includes
+- easy-to-use terminal interface (must be visually pleasing to the user)
 - recalling commands (this includes gdb commands for debugging)
-- effective debugging (use of gdb extensions, formatting, etc)
+- effective debugging (use of gdb extensions and other tools)
 
 *I may add to this list as I learn more from other projects
+
+## Easy-To-Use Terminal Interface
 
 ## Recalling Commands
 cat 
