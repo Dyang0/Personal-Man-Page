@@ -39,7 +39,7 @@ The benefits far exceed the cost of setting up your own environment. In many cas
 
 You may disagree with me. But think about how much more you will learn if you avoid all this initial overhead and clutter.
 
-My college uses [rlgoin](https://wiki.cs.vt.edu/index.php/Howto::Access_rlogin_service). Consistency reduces complexity.
+My college uses [rlgoin](https://wiki.cs.vt.edu/index.php/Howto::Access_rlogin_service) to create a consistent Linux environment. Consistency reduces complexity.
 
 ## Easy-To-Use Terminal Interface
 
