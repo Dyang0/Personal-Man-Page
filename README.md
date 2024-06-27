@@ -23,11 +23,23 @@ The sentiment behind this Ebook is to combat our tendency to feed into bad habit
 This guide may seem more helpful for pen testers. But as of now, I feel like these topics are indispensable for every software developer. It will be especially useful as one goes more into the OS and learn topics such as threading. Without basic knowledge on commands and debugging, complexity increases significantly.
 
 The primary sources of complexity includes
+- setting up a working environment
 - easy-to-use terminal interface (must be visually pleasing to the user)
 - recalling commands (this includes gdb commands for debugging)
 - effective debugging (use of gdb extensions and other tools)
 
 *I may add to this list as I learn more from other projects
+
+## Setting up a working environment
+- I have wasted countless hours trying to setup a working environment. This involves installing dependencies and ensuring the lifetime of a product through patches and updates. To be honest, it is not fun spending hours figuring out why you cannot execute a C program. Also, it hurts the learning experience as you don't see the fruits of your labor. Instead you see error after error just because an environment is not set correclty. This is where virtual evrionments come in.
+
+- This not only hides the clutter of the computers that you use everyday but it also gives you isolated operating systems for varying cases. Want to set an a virtual machine with many reverse tools. You can. Want to set a simple Ubuntu machine for pen testing. You can. Want to avoid fallback from running a malcious binary on your system. Use an isolated virtual machine.
+
+The benefits far exceed the cost of setting up your own environment. In many cases you can upload preconfigured virtual machines.
+
+You may argue that I am lazy or this practice does not reflect real world practices. But think about how much more you will learn if you avoid all this initial overhead and clutter.
+
+My college uses a ssh connection so why can't I make my own environment also.
 
 ## Easy-To-Use Terminal Interface
 
