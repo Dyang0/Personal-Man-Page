@@ -41,6 +41,7 @@ You may disagree with me. But think about how much more you will learn if you av
 My college uses [rlgoin](https://wiki.cs.vt.edu/index.php/Howto::Access_rlogin_service) to create a consistent Linux environment. Consistency reduces complexity.
 
 Possible things to add in the future
+
 - easy-to-use terminal interface (must be visually pleasing to the user)
 
 ## Easy-To-Use Terminal Interface
