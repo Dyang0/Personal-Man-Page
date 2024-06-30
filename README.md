@@ -24,7 +24,6 @@ This guide may seem more helpful for pen testers. But as of now, I feel like the
 
 The primary sources of complexity includes
 - setting up an initial environment
-- easy-to-use terminal interface (must be visually pleasing to the user)
 - recalling commands (this includes gdb commands for debugging)
 - effective debugging (use of gdb extensions and other tools)
 
@@ -40,6 +39,9 @@ The benefits far exceed the cost of setting up your own environment. In many cas
 You may disagree with me. But think about how much more you will learn if you avoid all this initial overhead and clutter.
 
 My college uses [rlgoin](https://wiki.cs.vt.edu/index.php/Howto::Access_rlogin_service) to create a consistent Linux environment. Consistency reduces complexity.
+
+Possible things to add in the future
+- easy-to-use terminal interface (must be visually pleasing to the user)
 
 ## Easy-To-Use Terminal Interface
 
